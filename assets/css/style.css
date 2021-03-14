@@ -1222,6 +1222,17 @@ section {
   background: #0dd3fe;
 }
 
+.peque {
+  font-size: 10px;
+}
+
+@media (min-width: 900px) {
+  .peque {
+    font-size: 14px;
+  }
+}
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
