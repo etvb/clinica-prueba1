@@ -708,7 +708,7 @@ section {
   background-size: cover;
   background-position: center;
   position: relative;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   transition: ease-in-out 0.3s;
 }
 
@@ -722,6 +722,9 @@ section {
 }
 .services .U-capilla{
   background-position: center -222px;
+}
+.services .U-mesas {
+  background-position: center -109px;
 }
 
 .services .icon-box::before{
