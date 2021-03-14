@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -704,6 +705,33 @@ section {
   padding: 30px;
   border-radius: 6px;
   background: #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* background-repeat: no-repeat; */
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box:hover{
+  transform: scale(1.1);
+
+}
+
+.services .U-habitaciones{
+  background-position: center -381px;
+}
+.services .U-capilla{
+  background-position: center -222px;
+}
+
+.services .icon-box::before{
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .services .icon-box i {
@@ -717,10 +745,11 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  position: relative;
 }
 
 .services .icon-box h4 a {
-  color: #354144;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -732,7 +761,16 @@ section {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
+  color: #fff;
+  position: relative;
 }
+
+/* @media(min-width: ){
+  .services .U-mesas {
+    background-position: center -109px;
+  }
+
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
