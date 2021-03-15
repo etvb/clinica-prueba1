@@ -724,7 +724,13 @@ section {
   background-position: center -222px;
 }
 .services .U-mesas {
-  background-position: center -109px;
+  background-position: center;
+}
+
+@media (min-width: 1200px) {
+  .services .U-mesas {
+    background-position: center -109px;
+  }  
 }
 
 .services .icon-box::before{
