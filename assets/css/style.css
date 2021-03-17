@@ -524,6 +524,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.bg-imagen-s1 {
+  background-image: url('../img/slide/m-slide-1.jpg');
+}
+
+.bg-imagen-s2{
+  background-image: url('../img/slide/m-slide-2.jpg');
+
+}
+@media(min-width: 500px){
+  .bg-imagen-s1 {
+    background-image: url('../img/slide/slide-1.jpg');
+  }
+
+  .bg-imagen-s2{
+    background-image: url('../img/slide/slide-2.jpg');
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
